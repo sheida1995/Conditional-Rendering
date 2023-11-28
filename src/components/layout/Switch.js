@@ -1,6 +1,6 @@
 import React from "react";
 
-const SwitchExample = ({ list }) => {
+const Switch = ({ list }) => {
   return (
     <>
       <ul>
@@ -32,5 +32,6 @@ const SwitchExample = ({ list }) => {
   );
 };
 
-export default SwitchExample;
+export default Switch;
+
 

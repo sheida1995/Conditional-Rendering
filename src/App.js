@@ -1,6 +1,7 @@
 import React from 'react'
-import Ternury from './components/layout/Ternury'
 import './App.css';
+// import Ternury from './components/layout/Ternury'
+import Switch from './components/layout/Switch'
 // import Logic from './components/layout/Logic';
 // import Else from './components/layout/Else';
 
@@ -26,9 +27,10 @@ const App = () => {
   
   return(
     <>
-     <Ternury list={list} />
+     {/* <Ternury list={list} /> */}
      {/* <Logic list={list}/> */}
      {/* <Else list={list}/> */}
+     <Switch list={list}/>
      
     </>
   )

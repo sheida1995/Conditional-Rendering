@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.stateStyleGreen{
+    background-Color: green;   
+}
+.stateStyleRed {
+    background-Color: red;
+  }
+.stateStyleOrange {
+    background-Color: orange;
+  }
